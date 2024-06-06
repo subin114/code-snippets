@@ -1,0 +1,52 @@
+/********** box01 **********/
+.box01 {
+  width: 500px;
+  height: 300px;
+  position: relative;
+}
+
+.box01::before {
+  content: "";
+  background: url(https://cdn.pixabay.com/photo/2020/06/28/00/04/chicago-5347435_960_720.jpg);
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.box01 h1 {
+  color: rgb(121, 68, 219);
+  text-align: center;
+  line-height: 300px;
+  position: relative;
+}
+
+/********** box02 **********/
+.box02 {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  background: url(https://cdn.pixabay.com/photo/2020/06/28/00/04/chicago-5347435_960_720.jpg);
+  background-size: cover;
+}
+
+.box02::before {
+  content: "";
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #000;
+}
+
+.box02 h1 {
+  color: #fff;
+  text-align: center;
+  line-height: 300px;
+  position: relative;
+}

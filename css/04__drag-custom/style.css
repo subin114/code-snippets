@@ -1,0 +1,9 @@
+::-moz-selection {
+  color: #333;
+  background: #4647471f;
+}
+
+::selection {
+  color: #333;
+  background: #4647471f;
+}
